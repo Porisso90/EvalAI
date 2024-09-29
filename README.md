@@ -10,47 +10,68 @@
     <a href="#sprint">Relatório das sprints</a> | 
     <a href="#tecnologia">Tecnologias utilizadas</a> | 
     <a href="#time">Time</a> | 
-
- 
-
-    
 </p>
+
 <span id="visao">
     
-<h2 aling="center"> 🔍Visão geral </h2>
+<h2 align="center"> 🔍Visão geral </h2>
 
-   
-O projeto visa desenvolver um Dashboard Web de alta complexidade para facilitar a gestão de Feedback e Pesquisa de Clima e Cultura em uma empresa. Com foco na coleta, organização e análise de dados de autoavaliações e avaliações de liderança, a plataforma permitirá que o RH e os líderes criem questionários personalizados, categorizem as perguntas e visualizem os resultados em dashboards interativos. Essa solução busca otimizar o processo de feedback, promovendo o desenvolvimento contínuo dos colaboradores e fortalecendo a cultura organizacional por meio de avaliações estruturadas e acessíveis.
+EvalAI é uma plataforma inovadora que visa simplificar e aprimorar o processo de avaliação de provas online. Utilizando inteligência artificial (IA) e um banco de dados robusto de questões, a plataforma permite que educadores criem, administrem e corrijam avaliações de maneira automática e eficiente.
 
- 
+A plataforma busca agilizar o processo de correção, proporcionando feedback imediato para os alunos e fornecendo aos educadores insights detalhados sobre o desempenho e padrões de aprendizado dos estudantes. O objetivo final é facilitar o trabalho dos educadores e melhorar a qualidade da educação com avaliações mais precisas e escaláveis.
+
 <span id="solucao">
     
-<h2 aling="center">🎯Solução Proposta </h2>
+<h2 align="center">🎯 Solução Proposta </h2>
 
-Imagine uma empresa que busca melhorar seu ambiente organizacional por meio de avaliações e autoavaliações estruturadas, mas enfrenta desafios na coleta e análise dessas informações. A solução proposta é um Dashboard Web robusto, onde líderes e o RH podem criar e aplicar questionários de autoavaliação para os colaboradores. Com uma interface intuitiva, essa plataforma permite que líderes e funcionários respondam às pesquisas, enquanto o RH acompanha a evolução individual e das equipes por meio de dashboards detalhados. Isso facilita o desenvolvimento pessoal e promove uma cultura de feedback contínuo.
+EvalAI propõe um sistema que combina o poder da IA com um vasto banco de dados de questões para criar uma solução de avaliação educacional completa. A inteligência artificial será usada para:
+
+- Corrigir respostas automaticamente, economizando tempo e esforço dos educadores.
+- Fornecer feedback em tempo real aos alunos, melhorando a experiência de aprendizado.
+- Analisar o desempenho dos alunos e gerar insights sobre os padrões de aprendizagem, ajudando os professores a identificar áreas que precisam de mais atenção.
+- Personalizar a experiência de avaliação, ajustando o nível de dificuldade das perguntas com base no desempenho anterior do aluno.
+
 <span id="mvp">
     
-<h2 aling="center"> 🧩MVP </h2>
+<h2 align="center"> 🧩 MVP </h2>
 
+O MVP (Produto Mínimo Viável) do EvalAI incluirá as seguintes funcionalidades:
 
+- Interface de criação de provas com questões do banco de dados.
+- Sistema de correção automática de respostas objetivas (como múltipla escolha).
+- Geração de feedback imediato para os alunos após a correção.
+- Relatórios básicos de desempenho para os educadores.
 
+Futuras funcionalidades incluem correção de respostas dissertativas e análise avançada de desempenho.
 
- 
-
-    
-</p>
 <span id="backlog">
 
-
-<h2 aling="center">📃Backlog do Produto </h2>
+<h2 align="center">📃 Backlog do Produto </h2>
 
 | Sprint | Tarefas |  User Story   | Item |  Tempo Estimado   | Status   | Dificuldade | 
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| 0 | 1 | Eu como cliente, quero um sistema com nivel de Admin, com acesso a todas as informações inseridas. Cadastro de novos usuários e classificação dos mesmos como Líder, Liderado ou Líder e Liderado. Cadastro de pesquisas de Autoavaliação, Avaliação de Liderança e Avaliação de Liderado. Cadastro de categorias para as perguntas, que servirão para definir o grupo que a pergunta se enquadra e organizar os Dashboards  | Níveis | 18h | ❌ | 9 |
-| 0 | 2 | Eu como cliente, quero um sistema com nivel de Líderes, com acesso às próprias informações e informações de liderados. Caso o líder tenha um superior, também poderá responder a pesquisa de Avaliação de Liderança, além de responder as pesquisas de Autoavaliação e Avaliação de Liderado | Níveis | 12h | ❌ | 7 |
-| 0 | 3 | Eu como cliente, quero um sistema com nivel de Liderado, com acesso às próprias informações. Acesso para responder a pesquisa de Autoavaliação. | Níveis | 7h | ❌ | 5 |
-| 0 | 4 | Eu como cliente, quero um sistema que permita que o Admin cadastre perguntas nos formatos: Texto longo, Escolha Única (texto e número) e Múltipla Escolha. O Admin pode escolher em qual categoria a pergunta se enquadra. | Pesquisa | 14h | ❌ | 8 |
-| 0 | 5 | Eu como cliente, quero um sistema com um limite de inserção de 20 perguntas por Pesquisa, sendo 5 de cada formato, sendo possível inserir até 10 opções nos formatos de escolha múltipla e única. O Admin pode escolher se a pergunta deve aparecer na pesquisa de Autoavaliação, Avaliação de Liderança ou Avaliação de Liderado | Pesquisa | 8h | ❌ | 6 |
-| 0 | 6 | Eu como cliente, quero um Dashboard Pessoal que deve se basear nas respostas dadas às perguntas de Autoavaliação, com as informações separadas de acordo com as categorias definidas pelo Admin. Todo usuário terá acesso ao próprio Dashboard Pessoal. | Dashboard | 6h | ❌ | 5 |
-| 0 | 7 | Eu como cliente, quero um Dashboard dos Liderados, que será apresentado para seus respectivos líderes e perfil Admin. Estes devem trazer as informações tanto de respostas fornecidas pelo liderado durante a Autoavaliação, quanto de respostas dadas pelo líder na Avaliação de Liderado, sobrepostas para comparação. | Dashboard | 10h |❌   | 7 |
-| 0 | 8 | Eu como cliente, quero um Dashboard Geral que ficará disponível apenas para o perfil Admin, que terá acesso ao Dashboard com as informações que o usuário preencheu em sua Autoavaliação, Dashboard com as informações que o seu líder preencheu em Avaliação de Liderado e também o Dashboard com as informações que o liderado preencheu em Avaliação de Líder, sobrepostas para comparação. | Dashboard | 12h | ❌ | 8 |
+| 0 | Configurar ambiente | Como desenvolvedor, quero configurar o ambiente para desenvolvimento | Ambiente | 10h | ❌ | 5 |
+| 1 | Criar banco de dados de questões | Como educador, quero cadastrar questões para criar minhas provas | DB | 18h | ❌ | 7 |
+| 2 | Implementar correção automática | Como professor, quero que as respostas dos alunos sejam corrigidas automaticamente | Correção | 20h | ❌ | 8 |
+| 3 | Gerar feedback automático | Como aluno, quero receber feedback imediato após submeter minha prova | Feedback | 15h | ❌ | 6 |
+| 4 | Relatórios de desempenho | Como educador, quero visualizar relatórios de desempenho dos alunos | Relatórios | 25h | ❌ | 9 |
+
+<span id="sprint">
+
+<h2 align="center">🚀 Relatório das Sprints </h2>
+
+**Sprint 1:** Configuração do ambiente de desenvolvimento finalizada, com instalação das principais dependências e integração inicial com o banco de dados.
+
+**Sprint 2:** Desenvolvimento do banco de dados em andamento, focado na criação de questões com diferentes níveis de dificuldade e categorias.
+
+**Sprint 3:** Em planejamento para implementação da correção automática de provas.
+
+**Sprint 4:** Em desenvolvimento o sistema de geração de feedback automático e relatórios de desempenho.
+
+<span id="tecnologia">
+
+<h2 align="center">🛠️ Tecnologias Utilizadas </h2>
+
+- **HTML**: Estruturação da interface da aplicação.
+- **CSS**: Estilização e design responsivo.
+- **Python**: Lógica de backend, integração com IA e banco de dados.
