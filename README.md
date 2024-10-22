@@ -50,7 +50,6 @@ Futuras funcionalidades incluem correção de respostas dissertativas e análise
 
 | Sprint | Tarefas |  User Story   | Item |  Tempo Estimado   | Status   | Dificuldade | 
 | :----: | :----: | :----: | :----: | :----: | :----: | :----: |
-| 0 | Configurar ambiente | Como desenvolvedor, quero configurar o ambiente para desenvolvimento | Ambiente | 10h | ❌ | 5 |
 | 1 | Criar banco de dados de questões | Como educador, quero cadastrar questões para criar minhas provas | DB | 18h | ❌ | 7 |
 | 2 | Implementar correção automática | Como professor, quero que as respostas dos alunos sejam corrigidas automaticamente | Correção | 20h | ❌ | 8 |
 | 3 | Gerar feedback automático | Como aluno, quero receber feedback imediato após submeter minha prova | Feedback | 15h | ❌ | 6 |
