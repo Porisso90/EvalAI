@@ -1,0 +1,29 @@
+# Ignorar node_modules na pasta backend
+/backend/node_modules/
+
+# Ignorar arquivos de compilação TypeScript na pasta backend
+/backend/dist/
+/backend/build/
+
+# Ignorar arquivos temporários do TypeScript
+/backend/*.tsbuildinfo
+
+# Ignorar arquivos de configuração locais do editor (Ex: VSCode)
+.backend/.vscode/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de banco de dados locais (se houver)
+*.sqlite
+*.db
+
+# Arquivos de backup
+*.bak
+
+# Ignorar arquivos de ambiente
+/backend/.env
+/backend/.env.local
+/backend/.env.development
+/backend/.env.test
+/backend/.env.production
