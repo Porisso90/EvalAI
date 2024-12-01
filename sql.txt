@@ -1,0 +1,19 @@
+
+create database EvalAI;
+use EvalAI;
+CREATE TABLE questions (
+  id INT PRIMARY KEY auto_increment,
+  question_text VARCHAR(255),
+  correct_answer VARCHAR(1)
+);
+
+CREATE TABLE options (
+  id INT PRIMARY KEY auto_increment,
+  question_id INT,
+  letter CHAR(1),
+  option_text VARCHAR(255),
+  FOREIGN KEY (question_id) REFERENCES questions(id)
+);
+select * from questions;
+select * from options;
+
